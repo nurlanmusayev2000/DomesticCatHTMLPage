@@ -42,3 +42,25 @@ table {
 table td {
     height: 65px;
 }
+
+@media (max-width: 460px) {
+    .catMedia img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 378px) {
+    .catMedia img,
+    .lionimg {
+        width: 200px;
+        height: 200px;
+    }
+    table {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    table td {
+        height: 80px;
+    }
+}
